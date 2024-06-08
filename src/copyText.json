@@ -1,0 +1,12 @@
+{
+	"homeScreen": {
+		"aboutMeHeader": "About me",
+		"aboutMeLeadPara": "Experienced Software Engineer with over 4.5 years of expertise in designing, developing, and maintaining complex software applications. Adept at problem-solving and known for a collaborative approach within cross-functional teams. Enthusiastic about coding, I am proficient in multiple programming languages and frameworks, consistently delivering high-quality, scalable solutions. Passionate about continuous learning and knowledge sharing, I actively contribute to online teaching platforms, creating educational content that helps others excel in their software development journeys. My ability to break down complex concepts into digestible lessons has garnered positive feedback from learners worldwide.",
+		"skills": "Skills",
+		"experience": "Experience",
+		"infy_experience": "Worked on a comprehensive web application to facilitate loan processing services for Westpac, one of Australia's largest banking institutions. Implemented diverse UI components utilizing React Redux to ensure an intuitive user experience. Developed REST APIs in Node.js to retrieve data from the Oracle Banking Platform and Java Spring Boot APIs, catering to different user interactions and requirements. Engineered REST APIs in Java Spring Boot to fetch data from the Oracle Banking Platform, enhancing functionality and responsiveness based on user interactions.",
+		"amdocs_experience": "Developed responsive web apps using React.js, TypeScript, and Redux for state management. Utilized React Hooks for efficient state and lifecycle management. Integrated AEM components for personalized user experiences. Collaborated with backend teams to enhance app functionalities via RESTful APIs and Java. Conducted code reviews to ensure quality and adherence to best practices. Worked with cross-functional teams to deliver projects on time. Implemented features, resolved bugs, and contributed to legacy code migration for improved maintainability and scalability.",
+		"test": "test"
+	} 
+
+}
