@@ -1,0 +1,26 @@
+.modal-wrapper {
+	background: rgba(201, 199, 199, 0.733);
+	backdrop-filter: blur(15px);
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	.exp-modal{
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 1.3rem;
+		background: rgb(253, 253, 253);
+		width: 80vw;
+		height: fit-content;
+		padding: 2rem 3rem 4rem;
+	
+		.close-icon {
+			font-size: xx-large;
+		}
+	}
+}

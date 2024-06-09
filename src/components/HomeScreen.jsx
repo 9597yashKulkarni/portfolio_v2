@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import web_pic from "../assets/portfolio_web_pic-removebg.png";
 import '../sass/_homeScreen.scss';
 import copyTexts from '../copyText.json';
+import ExperienceModal from "./ExperienceModal";
 
 const HomeScreen = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [jobId, setJobId] = useState('');
 	const onDownloadClick = () => {
         const pdfUrl = "Yash'sResume.pdf";
         const link = document.createElement("a");
@@ -44,8 +47,17 @@ const HomeScreen = () => {
 		'Bamboo',
 		'Jenkins'
 	]
+
+	const showInModal = (id) => {
+		setIsModalOpen(true);
+		setJobId(id);
+	}
+	const onCloseClick = () => {
+		setIsModalOpen(false);
+		setJobId('');
+	}
 	return (
-		<div className="home-screen">
+		<div className="home-screen mb-5">
 			<div className="header-section bg-light">
 				<div className="container w-100 pt-5">
 					<div className="row">
@@ -125,7 +137,7 @@ const HomeScreen = () => {
 				</div>
 				<div class="row mt-4">
 					<div class="col-12 col-md-6">
-						<div className="experience cursor-pointer">
+						<div className="experience cursor-pointer shadow" id="amdocs" onClick={() =>{showInModal('amdocs')}}>
 							<h3 className="mb-0">
 								Amdocs
 							</h3>
@@ -136,7 +148,7 @@ const HomeScreen = () => {
 				</div>
 				<div class="row mt-4">
 					<div class="col-12 col-md-6 offset-md-6">
-						<div className="experience cursor-pointer">
+						<div className="experience cursor-pointer shadow" id="infy" onClick={() =>{showInModal('infy')}}>
 							<h3 className="mb-0">
 								Infosys
 							</h3>
@@ -146,6 +158,7 @@ const HomeScreen = () => {
 					</div>
 				</div>
 			</div>
+			{isModalOpen && <ExperienceModal jobId={jobId} onCloseClick={onCloseClick}/>}
 		</div>
 	)
 };

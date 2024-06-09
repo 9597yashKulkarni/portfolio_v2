@@ -12,9 +12,10 @@
 	}
 
 	.experience {
-		border: 2px solid rebeccapurple;
+		border: 1px solid rebeccapurple;
 		padding: 1.5rem 2.5rem;
-		border-radius: 1.5rem;
+		border-radius: 1.2rem;
+		background: rgba(255, 255, 255, 0.12);
 		.exp-desc {
 			display: -webkit-box;
 			-webkit-box-orient: vertical;
