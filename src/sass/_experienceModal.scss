@@ -18,6 +18,13 @@
 		width: 80vw;
 		height: fit-content;
 		padding: 2rem 3rem 4rem;
+		overflow: auto;
+
+		@media (max-width: 780px) {
+			width: 95vw;
+			height: 95vh;
+			padding: 2rem 1.3rem 4rem;
+		}
 	
 		.close-icon {
 			font-size: xx-large;
