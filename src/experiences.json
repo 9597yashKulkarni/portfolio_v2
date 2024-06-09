@@ -10,5 +10,25 @@
 		"duration": "2019 - 2021",
 		"briefDescription": "Worked on a comprehensive web application to facilitate loan processing services for Westpac, one of Australia's largest banking institutions. Implemented diverse UI components utilizing React Redux to ensure an intuitive user experience. Developed REST APIs in Node.js to retrieve data from the Oracle Banking Platform and Java Spring Boot APIs, catering to different user interactions and requirements. Engineered REST APIs in Java Spring Boot to fetch data from the Oracle Banking Platform, enhancing functionality and responsiveness based on user interactions.",
 		"longDescription": "1. Worked on a comprehensive web application to facilitate loan processing services for Westpac, one of Australia's largest banking institutions.\n2. Implemented diverse UI components utilizing React Redux to ensure an intuitive user experience.\n3. Developed REST APIs in Node.js to retrieve data from the Oracle Banking Platform and Java Spring Boot APIs, catering to different user interactions and requirements.\n4. Engineered REST APIs in Java Spring Boot to fetch data from the Oracle Banking Platform, enhancing functionality and responsiveness based on user interactions."
+	},
+	"project1": {
+		"orgName": "Leave tracker and Capacity planner web Application",
+		"briefDescription": "Developing a web application to streamline the leave process for Scrum teams using React.js, Java Spring Boot, and MySQL, enabling employees to apply for leave and Scrum Masters to plan sprint capacity efficiently.",
+		"longDescription": ""
+	},
+	"project2": {
+		"orgName": "Web Application for searching flatmate",
+		"briefDescription": "Developed a web app facilitating home sharing. Users can list homes or find flatmates. Used React.js for the front-end, Django Rest Framework for the back-end and MySQL for the database.",
+		"longDescription": ""
+	},
+	"project3": {
+		"orgName": "Peer to peer Messaging Application",
+		"briefDescription": "Created a react native application for peer to peer sending messages with FireStore as database.",
+		"longDescription": ""
+	},
+	"project4": {
+		"orgName": "Brain Tumor Detection using CNN",
+		"briefDescription": "Created and trained a Convolutional Neural Network model for classifying the Brain MRI into Benign and Malignant.",
+		"longDescription": ""
 	}
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import web_pic from "../assets/portfolio_web_pic-removebg.png";
 import '../sass/_homeScreen.scss';
 import copyTexts from '../copyText.json';
+import experiences from '../experiences.json';
 import ExperienceModal from "./ExperienceModal";
 
 const HomeScreen = () => {
@@ -81,7 +82,7 @@ const HomeScreen = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-12 col-md-6 mt-md-4">
+						<div className="col-12 col-md-6 mt-md-0 mt-4">
 							<div className="d-flex align-items-center">
 								<img className="my-pic" src={web_pic} alt="" />
 							</div>
@@ -139,10 +140,10 @@ const HomeScreen = () => {
 					<div class="col-12 col-md-6">
 						<div className="experience cursor-pointer shadow" id="amdocs" onClick={() =>{showInModal('amdocs')}}>
 							<h3 className="mb-0">
-								Amdocs
+								{experiences.amdocs.orgName}
 							</h3>
-							<small class="text-muted">2021-Today</small>	
-							<p className="lead mt-3 exp-desc">{copyTexts.homeScreen.amdocs_experience}</p>
+							<small class="text-muted">{experiences.amdocs.duration}</small>	
+							<p className="lead mt-3 exp-desc">{experiences.amdocs.briefDescription}</p>
 						</div>
 					</div>
 				</div>
@@ -150,11 +151,69 @@ const HomeScreen = () => {
 					<div class="col-12 col-md-6 offset-md-6">
 						<div className="experience cursor-pointer shadow" id="infy" onClick={() =>{showInModal('infy')}}>
 							<h3 className="mb-0">
-								Infosys
+								{experiences.infy.orgName}
 							</h3>
-							<small class="text-muted">2019-2021</small>	
-							<p className="lead mt-3 exp-desc">{copyTexts.homeScreen.infy_experience}</p>
+							<small class="text-muted">{experiences.infy.duration}</small>	
+							<p className="lead mt-3 exp-desc">{experiences.infy.briefDescription}</p>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div className="container own-projects mt-5">
+				<div className="row">
+					<div className="col-12">
+						<h4>{copyTexts.homeScreen.ownProjects}</h4>
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-2 g-4 mt-1">
+					<div class="col">
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+							<div class="card-body">
+								<h5 class="card-title mb-3">{experiences.project1.orgName}</h5>
+								<p class="card-text small">{experiences.project1.briefDescription}</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+							<div class="card-body">
+								<h5 class="card-title mb-3">{experiences.project2.orgName}</h5>
+								<p class="card-text small">{experiences.project2.briefDescription}</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+							<div class="card-body">
+								<h5 class="card-title mb-3">{experiences.project3.orgName}</h5>
+								<p class="card-text small">{experiences.project3.briefDescription}</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+							<div class="card-body">
+								<h5 class="card-title mb-3">{experiences.project4.orgName}</h5>
+								<p class="card-text small">{experiences.project4.briefDescription}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="container find-me mt-5">
+				<div className="row">
+					<div className="col-12">
+						<h4>Find Me</h4>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-12 d-flex justify-content-center my-links">
+						<a href="https://github.com/9597yashKulkarni" target="_blank">
+							<i className="fa fa-github" />
+						</a>
+						<a href="https://www.linkedin.com/in/yash-kulkarni-187b68124?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+							<i className="fa fa-linkedin" />
+						</a>
 					</div>
 				</div>
 			</div>
