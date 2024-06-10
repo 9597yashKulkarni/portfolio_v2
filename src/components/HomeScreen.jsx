@@ -4,6 +4,7 @@ import '../sass/_homeScreen.scss';
 import copyTexts from '../copyText.json';
 import experiences from '../experiences.json';
 import ExperienceModal from "./ExperienceModal";
+import { useNavigate } from "react-router-dom";
 
 const HomeScreen = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,6 +18,8 @@ const HomeScreen = () => {
         link.click();
         document.body.removeChild(link);
     };
+
+	const navigate = useNavigate();
 
 	const skills = [
 		'React js',
@@ -167,7 +170,7 @@ const HomeScreen = () => {
 				</div>
 				<div class="row row-cols-1 row-cols-md-2 g-4 mt-1">
 					<div class="col">
-						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+						<div class="card shadow h-100 cursor-pointer" onClick={() => navigate('/leave-tracker-application')}>
 							<div class="card-body">
 								<h5 class="card-title mb-3">{experiences.project1.orgName}</h5>
 								<p class="card-text small">{experiences.project1.briefDescription}</p>
