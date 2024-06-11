@@ -178,7 +178,7 @@ const HomeScreen = () => {
 						</div>
 					</div>
 					<div class="col">
-						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{navigate('/flatmate-sharing-application')}}>
 							<div class="card-body">
 								<h5 class="card-title mb-3">{experiences.project2.orgName}</h5>
 								<p class="card-text small">{experiences.project2.briefDescription}</p>
@@ -186,7 +186,7 @@ const HomeScreen = () => {
 						</div>
 					</div>
 					<div class="col">
-						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{navigate('/messaging-app')}}>
 							<div class="card-body">
 								<h5 class="card-title mb-3">{experiences.project3.orgName}</h5>
 								<p class="card-text small">{experiences.project3.briefDescription}</p>
@@ -194,7 +194,7 @@ const HomeScreen = () => {
 						</div>
 					</div>
 					<div class="col">
-						<div class="card shadow h-100 cursor-pointer" onClick={() =>{showInModal('project1')}}>
+						<div class="card shadow h-100 cursor-pointer" onClick={() =>{navigate('/brain-tumor-detection-project')}}>
 							<div class="card-body">
 								<h5 class="card-title mb-3">{experiences.project4.orgName}</h5>
 								<p class="card-text small">{experiences.project4.briefDescription}</p>

@@ -1,67 +1,91 @@
 {
-	"title": "SprintLeave: Streamlined Leave Management for Scrum Teams",
-	"projectDescriptionHeading": "Project Description:",
-	"projectDescription": "SprintLeave is a comprehensive web application designed to simplify and optimize the leave management process for Scrum teams. Utilizing modern technologies like React.js, Java Spring Boot, and MySQL, SprintLeave aims to enhance the efficiency of both employees and Scrum Masters by providing a seamless platform for leave application and sprint capacity planning.",
-	"keyFeature": {
-		"heading": "Key Features:",
-		"features": [
-			{
-				"point": "User-Friendly Interface:",
-				"desc": "Built with React.js, the front-end of SprintLeave offers an intuitive and responsive user interface. Employees can effortlessly navigate through the application to apply for leave, view leave history, and check their leave balances."
-			},
-			{
-				"point": "Robust Backend System:",
-				"desc": "The backend is powered by Java Spring Boot, ensuring a reliable and scalable framework for managing leave data and processing requests. Spring Boot's microservices architecture facilitates smooth integration and maintenance."
-			},
-			{
-				"point": "Efficient Data Management:",
-				"desc": "Leveraging MySQL, SprintLeave maintains a secure and organized database to store leave records, user information, and sprint schedules. MySQL's relational database capabilities ensure data integrity and quick retrieval."
-			},
-			{
-				"point": "Leave Application Process:",
-				"desc": "Employees can easily submit leave requests specifying dates, types of leave, and reasons. The application automatically checks for conflicts with existing leave records and notifies the employee of any issues."
-			},
-			{
-				"point": "Approval Workflow:",
-				"desc": "Scrum Masters receive notifications for new leave requests and can approve or reject them with just a few clicks. The system tracks the status of each request, providing transparency to both employees and approvers."
-			},
-			{
-				"point": "Sprint Capacity Planning:",
-				"desc": "SprintLeave offers tools for Scrum Masters to visualize team capacity across sprints. By integrating leave data with sprint planning, Scrum Masters can make informed decisions on resource allocation, ensuring minimal disruption to project timelines."
-			},
-			{
-				"point": "Notifications and Reminders:",
-				"desc": "Automated email notifications and in-app reminders keep employees and Scrum Masters informed about upcoming leaves, pending approvals, and other critical updates, enhancing communication and reducing delays."
-			},
-			{
-				"point": "Reports and Analytics:",
-				"desc": "Comprehensive reporting features allow administrators to generate detailed leave reports, track patterns, and analyze leave trends. These insights help in making strategic decisions regarding team management and policy adjustments."
-			},
-			{
-				"point": "Security and Privacy:",
-				"desc": "SprintLeave prioritizes data security with robust authentication and authorization mechanisms. User data is encrypted and securely stored, ensuring compliance with data protection regulations."
-			}
-		]
-	},
-	"benefits": {
-		"heading": "Benefits:",
-		"features": [
-			{
-				"point":"For Employees:",
-				"desc1": "Simplifies the process of applying for leave and tracking leave balances.",
-				"desc2": "Provides transparency in the approval process, reducing uncertainties and waiting times."
-			},
-			{
-				"point": "For Scrum Masters:",
-				"desc1": "Enhances sprint planning by providing clear visibility into team availability.",
-				"desc2": "Streamlines the leave approval process, allowing more time to focus on core responsibilities."
-			},
-			{
-				"point": "For Organizations:",
-				"desc1": "Improves overall efficiency and productivity by minimizing disruptions due to unplanned leaves.",
-				"desc2": "Facilitates better resource management and project planning through detailed analytics."
-			}
-		]
-	},
-	"footNote": "SprintLeave aims to transform leave management into a hassle-free and efficient process, benefiting Scrum teams by ensuring better planning, communication, and productivity."
+  "title": "SprintLeave: Streamlined Leave Management for Scrum Teams",
+  "projectDescriptionHeading": "Project Description:",
+  "projectDescription": "SprintLeave is a comprehensive web application designed to simplify and optimize the leave management process for Scrum teams. Utilizing modern technologies like React.js, Java Spring Boot, and MySQL, SprintLeave aims to enhance the efficiency of both employees and Scrum Masters by providing a seamless platform for leave application and sprint capacity planning.",
+  "keyFeature": {
+    "heading": "Key Features:",
+    "features": [
+      {
+        "point": "User-Friendly Interface:",
+        "desc": [
+          "Built with React.js, the front-end of SprintLeave offers an intuitive and responsive user interface. Employees can effortlessly navigate through the application to apply for leave, view leave history, and check their leave balances."
+        ]
+      },
+      {
+        "point": "Robust Backend System:",
+        "desc": [
+          "The backend is powered by Java Spring Boot, ensuring a reliable and scalable framework for managing leave data and processing requests. Spring Boot's microservices architecture facilitates smooth integration and maintenance."
+        ]
+      },
+      {
+        "point": "Efficient Data Management:",
+        "desc": [
+          "Leveraging MySQL, SprintLeave maintains a secure and organized database to store leave records, user information, and sprint schedules. MySQL's relational database capabilities ensure data integrity and quick retrieval."
+        ]
+      },
+      {
+        "point": "Leave Application Process:",
+        "desc": [
+          "Employees can easily submit leave requests specifying dates, types of leave, and reasons. The application automatically checks for conflicts with existing leave records and notifies the employee of any issues."
+        ]
+      },
+      {
+        "point": "Approval Workflow:",
+        "desc": [
+          "Scrum Masters receive notifications for new leave requests and can approve or reject them with just a few clicks. The system tracks the status of each request, providing transparency to both employees and approvers."
+        ]
+      },
+      {
+        "point": "Sprint Capacity Planning:",
+        "desc": [
+          "SprintLeave offers tools for Scrum Masters to visualize team capacity across sprints. By integrating leave data with sprint planning, Scrum Masters can make informed decisions on resource allocation, ensuring minimal disruption to project timelines."
+        ]
+      },
+      {
+        "point": "Notifications and Reminders:",
+        "desc": [
+          "Automated email notifications and in-app reminders keep employees and Scrum Masters informed about upcoming leaves, pending approvals, and other critical updates, enhancing communication and reducing delays."
+        ]
+      },
+      {
+        "point": "Reports and Analytics:",
+        "desc": [
+          "Comprehensive reporting features allow administrators to generate detailed leave reports, track patterns, and analyze leave trends. These insights help in making strategic decisions regarding team management and policy adjustments."
+        ]
+      },
+      {
+        "point": "Security and Privacy:",
+        "desc": [
+          "SprintLeave prioritizes data security with robust authentication and authorization mechanisms. User data is encrypted and securely stored, ensuring compliance with data protection regulations."
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "heading": "Benefits:",
+    "features": [
+      {
+        "point": "For Employees:",
+        "desc": [
+          "Simplifies the process of applying for leave and tracking leave balances.",
+          "Provides transparency in the approval process, reducing uncertainties and waiting times."
+        ]
+      },
+      {
+        "point": "For Scrum Masters:",
+        "desc": [
+          "Enhances sprint planning by providing clear visibility into team availability.",
+          "Streamlines the leave approval process, allowing more time to focus on core responsibilities."
+        ]
+      },
+      {
+        "point": "For Organizations:",
+        "desc": [
+          "Improves overall efficiency and productivity by minimizing disruptions due to unplanned leaves.",
+          "Facilitates better resource management and project planning through detailed analytics."
+        ]
+      }
+    ]
+  },
+  "footNote": "SprintLeave aims to transform leave management into a hassle-free and efficient process, benefiting Scrum teams by ensuring better planning, communication, and productivity."
 }
