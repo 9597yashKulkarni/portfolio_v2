@@ -23,12 +23,12 @@
 	},
 	"project3": {
 		"orgName": "Peer to peer Messaging Application",
-		"briefDescription": "Created a react native application for peer to peer sending messages with FireStore as database.",
+		"briefDescription": "Developed a practice React Native application, PeerChat Lite, for peer-to-peer messaging using Firestore as the database. This app facilitates real-time communication with messages stored locally on the user's device for enhanced privacy, ensuring they are not retained in the database once delivered.",
 		"longDescription": ""
 	},
 	"project4": {
 		"orgName": "Brain Tumor Detection using CNN",
-		"briefDescription": "Created and trained a Convolutional Neural Network model for classifying the Brain MRI into Benign and Malignant.",
+		"briefDescription": "Developed and trained a Convolutional Neural Network (CNN) model to classify Brain MRI images as benign or malignant. This model leverages advanced deep learning techniques to aid in accurate and efficient diagnosis of brain tumors.",
 		"longDescription": ""
 	}
 }
