@@ -48,7 +48,7 @@ const ProjectDetails = (props) => {
 						</h5>
 					</div>
 					<div className='col-12'>
-						<ul>
+						<ul className="ms-3">
 							{getFeatureDescription(feature?.desc)}
 						</ul>
 					</div>
@@ -58,16 +58,16 @@ const ProjectDetails = (props) => {
 	}
 	
 	return (
-		<div className="leave-tracker projects">
+		<div className="leave-tracker projects lead">
 			<div className="container">
 				<div className="row">
-					<div className="col-12 d-flex justify-content-center">
+					<div className="col-12 d-flex justify-content-center text-center">
 						<h3>
 							{dataSource.title}
 						</h3>
 					</div>
 				</div>
-				<div className="project-description">
+				<div className="project-description mt-5">
 					<div className="row">
 						<div className="col-12">
 							<h5>
@@ -77,13 +77,13 @@ const ProjectDetails = (props) => {
 					</div>
 					<div className="row">
 						<div className="col-12">
-							<p>
+							<p className="text-para-indent">
 								{dataSource.projectDescription}
 							</p>
 						</div>
 					</div>
 				</div>
-				<div className="key-features">
+				<div className="key-features mt-4">
 					<div className="row">
 						<div className="col-12">
 							<h5>
@@ -91,21 +91,23 @@ const ProjectDetails = (props) => {
 							</h5>
 						</div>
 					</div>
-					{getFeaturesOrBenefits('keyFeature')}
+					<div className="feature-list ms-3 mt-2">
+						{getFeaturesOrBenefits('keyFeature')}
+					</div>
 				</div>
-				<div className='benefits'>
-					<div className='row'>
-						<div className='col-12'>
+				<div className="benefits mt-4">
+					<div className="row">
+						<div className="col-12">
 							<h5>
 								{dataSource?.benefits?.heading}
 							</h5>
 						</div>
 					</div>
-					<div className='row'>
+					<div className='benefits-list ms-3 mt-2'>
 						{getFeaturesOrBenefits('benefits')}
 					</div>
 				</div>
-				<div className='foot-note'>
+				<div className='foot-note mt-4'>
 					<div className='row'>
 						<div className='col-12'>
 							<p>
